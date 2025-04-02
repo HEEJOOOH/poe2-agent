@@ -37,9 +37,6 @@ for index, row in df.head(10).iterrows():
 html_table += "</table>"
 
 # 결과 출력
-from IPython.core.display import display, HTML
-display(HTML(html_table))
-
 print(html_table)
 
 import requests
